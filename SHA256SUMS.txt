@@ -1,0 +1,3 @@
+2cddd0f30fb408e99d6fa1681e44e348463e7fbda97975277b85b87cfbd2a7a1  GameEngine-Windows-x64-v2026.10.19.zip
+c8f71ab19a61b7ed6fbfb6e77c5fdb9e22b2fddd5083bc00da51893466ac6437  Command-RPG-Windows-x64-v2026.10.19.zip
+facb952d9be4599b8527da1cb344d8600d596d93e48b21b68b1778f695ba9fcc  Cockpit-on-Knife-Edge-Windows-x86-v2026.10.19.zip

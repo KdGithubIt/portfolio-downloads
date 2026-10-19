@@ -1,0 +1,38 @@
+[
+  {
+    "projectId": "rust-game-engine",
+    "title": "GameEngine",
+    "platform": "Windows 10 / 11（64bit）",
+    "version": "v2026.10.19",
+    "filename": "GameEngine-Windows-x64-v2026.10.19.zip",
+    "bytes": 48993088,
+    "sha256": "2cddd0f30fb408e99d6fa1681e44e348463e7fbda97975277b85b87cfbd2a7a1",
+    "entryPoint": "GameEngine-Windows-x64/Play-TinyGoal.cmd",
+    "fileCount": 737,
+    "url": "https://github.com/KdGithubIt/portfolio-downloads/releases/download/v2026.10.19/GameEngine-Windows-x64-v2026.10.19.zip"
+  },
+  {
+    "projectId": "command-rpg",
+    "title": "コマンドRPG",
+    "platform": "Windows 10 / 11（64bit）",
+    "version": "v2026.10.19",
+    "filename": "Command-RPG-Windows-x64-v2026.10.19.zip",
+    "bytes": 110845705,
+    "sha256": "c8f71ab19a61b7ed6fbfb6e77c5fdb9e22b2fddd5083bc00da51893466ac6437",
+    "entryPoint": "Command-RPG-Windows-x64/Play.cmd",
+    "fileCount": 1727,
+    "url": "https://github.com/KdGithubIt/portfolio-downloads/releases/download/v2026.10.19/Command-RPG-Windows-x64-v2026.10.19.zip"
+  },
+  {
+    "projectId": "2d-shooting",
+    "title": "Cockpit on Knife Edge",
+    "platform": "Windows 10 / 11（32bit / 64bit）",
+    "version": "v2026.10.19",
+    "filename": "Cockpit-on-Knife-Edge-Windows-x86-v2026.10.19.zip",
+    "bytes": 51450278,
+    "sha256": "facb952d9be4599b8527da1cb344d8600d596d93e48b21b68b1778f695ba9fcc",
+    "entryPoint": "Cockpit-on-Knife-Edge-Windows-x86/Play.cmd",
+    "fileCount": 234,
+    "url": "https://github.com/KdGithubIt/portfolio-downloads/releases/download/v2026.10.19/Cockpit-on-Knife-Edge-Windows-x86-v2026.10.19.zip"
+  }
+]
