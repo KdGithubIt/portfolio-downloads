@@ -9,7 +9,7 @@ ZIPをダウンロードして**すべて展開**し、同梱の起動ファイ�
 | 作品 | 対応環境 | ZIP | 起動ファイル |
 | --- | --- | --- | --- |
 | GameEngine | Windows 10 / 11（64bit） | [ダウンロード — 49.0 MB](https://github.com/KdGithubIt/portfolio-downloads/releases/download/v2026.10.19/GameEngine-Windows-x64-v2026.10.19.zip) | `Play-TinyGoal.cmd` |
-| CoopQuest | Windows 10 / 11（64bit） | [ダウンロード — 417.5 MB](https://github.com/KdGithubIt/portfolio-downloads/releases/download/v2026.10.20/CoopQuest-Windows-x64-v2026.10.20.zip) | `Play.cmd` |
+| CoopQuest | Windows 10 / 11（64bit） | [ダウンロード — 417.5 MB](https://github.com/KdGithubIt/portfolio-downloads/releases/download/v2026.10.20.1/CoopQuest-Windows-x64-v2026.10.20.1.zip) | `Play.cmd` |
 | コマンドRPG | Windows 10 / 11（64bit） | [ダウンロード — 110.8 MB](https://github.com/KdGithubIt/portfolio-downloads/releases/download/v2026.10.19/Command-RPG-Windows-x64-v2026.10.19.zip) | `Play.cmd` |
 | Cockpit on Knife Edge | Windows 10 / 11（32bit / 64bit） | [ダウンロード — 51.5 MB](https://github.com/KdGithubIt/portfolio-downloads/releases/download/v2026.10.19/Cockpit-on-Knife-Edge-Windows-x86-v2026.10.19.zip) | `Play.cmd` |
 
@@ -32,7 +32,7 @@ GameEngineのサンプルを遊ぶためにRustやビルド環境は不要です
 
 同梱ファイルの検証、ZIPのCRC検査、Windows環境での起動確認を実施しています。エンジンの公式サンプルではコンパイル済みゲームモジュールを読み込み、180フレームの実行処理も確認しました。全ステージの通しプレイや、別PCでの確認は未実施です。
 
-CoopQuestは本編FirstStageの初期化後、60回のフレーム更新を確認しました。63個のglTFと2,924件のアセット参照を照合しています。
+CoopQuestは本編FirstStageの初期化後、60回のフレーム更新を確認しました。配布版ではDirect3Dの開発用SDKレイヤーへの依存も解除しています。63個のglTFと2,924件のアセット参照を照合しています。
 
 ## 整合性の確認
 
