@@ -9,16 +9,18 @@ ZIPをダウンロードして**すべて展開**し、同梱の起動ファイ�
 | 作品 | 対応環境 | ZIP | 起動ファイル |
 | --- | --- | --- | --- |
 | GameEngine | Windows 10 / 11（64bit） | [ダウンロード — 49.0 MB](https://github.com/KdGithubIt/portfolio-downloads/releases/download/v2026.10.19/GameEngine-Windows-x64-v2026.10.19.zip) | `Play-TinyGoal.cmd` |
+| CoopQuest | Windows 10 / 11（64bit） | [ダウンロード — 417.5 MB](https://github.com/KdGithubIt/portfolio-downloads/releases/download/v2026.10.20/CoopQuest-Windows-x64-v2026.10.20.zip) | `Play.cmd` |
 | コマンドRPG | Windows 10 / 11（64bit） | [ダウンロード — 110.8 MB](https://github.com/KdGithubIt/portfolio-downloads/releases/download/v2026.10.19/Command-RPG-Windows-x64-v2026.10.19.zip) | `Play.cmd` |
 | Cockpit on Knife Edge | Windows 10 / 11（32bit / 64bit） | [ダウンロード — 51.5 MB](https://github.com/KdGithubIt/portfolio-downloads/releases/download/v2026.10.19/Cockpit-on-Knife-Edge-Windows-x86-v2026.10.19.zip) | `Play.cmd` |
 
-[すべての配布ファイル・リリース情報](https://github.com/KdGithubIt/portfolio-downloads/releases/tag/v2026.10.19)
+[すべての配布ファイル・リリース情報](https://github.com/KdGithubIt/portfolio-downloads/releases)
 
 GitHubが表示する「Source code」のZIPは配布用のゲームではありません。上のリンクか、Releases内の作品名付きZIPを使用してください。
 
 ## 遊び方
 
 - **Cockpit on Knife Edge**: Enterで開始。方向キーで移動、Zで通常弾、Xでチャージ弾、Cでスタン弾。
+- **CoopQuest**: `Play.cmd`で本編FirstStageから開始。W/A/S/Dで移動、Spaceでジャンプ、Eで仲間の付け外し、Rで仲間のスキル、Shiftで横移動。
 - **コマンドRPG**: 左右で移動、上でジャンプ、Spaceで回転、Zで攻撃。戦闘は上下とEnterで選択・決定。
 - **GameEngine / Tiny Goal**: `Play-TinyGoal.cmd`を実行。W/A/S/Dで青いキューブを動かし、金色のキューブに触れるとクリア。`Open-Editor.cmd`で同梱サンプルを指定してエディターを開けます。
 
@@ -30,7 +32,7 @@ GameEngineのサンプルを遊ぶためにRustやビルド環境は不要です
 
 同梱ファイルの検証、ZIPのCRC検査、Windows環境での起動確認を実施しています。エンジンの公式サンプルではコンパイル済みゲームモジュールを読み込み、180フレームの実行処理も確認しました。全ステージの通しプレイや、別PCでの確認は未実施です。
 
-CoopQuestは配布準備中です。
+CoopQuestは本編FirstStageの初期化後、60回のフレーム更新を確認しました。63個のglTFと2,924件のアセット参照を照合しています。
 
 ## 整合性の確認
 
