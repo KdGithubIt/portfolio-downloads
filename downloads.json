@@ -27,24 +27,24 @@
     "projectId": "command-rpg",
     "title": "コマンドRPG",
     "platform": "Windows 10 / 11（64bit）",
-    "version": "v2026.10.19",
-    "filename": "Command-RPG-Windows-x64-v2026.10.19.zip",
-    "bytes": 110845705,
-    "sha256": "c8f71ab19a61b7ed6fbfb6e77c5fdb9e22b2fddd5083bc00da51893466ac6437",
+    "version": "v2026.10.21",
+    "filename": "Command-RPG-Windows-x64-v2026.10.21.zip",
+    "bytes": 110846319,
+    "sha256": "46592c6b7ac869dbb8a2a873759b8608af369cfbba91296cd1322b88bd5a9100",
     "entryPoint": "Command-RPG-Windows-x64/Play.cmd",
     "fileCount": 1727,
-    "url": "https://github.com/KdGithubIt/portfolio-downloads/releases/download/v2026.10.19/Command-RPG-Windows-x64-v2026.10.19.zip"
+    "url": "https://github.com/KdGithubIt/portfolio-downloads/releases/download/v2026.10.21/Command-RPG-Windows-x64-v2026.10.21.zip"
   },
   {
     "projectId": "2d-shooting",
     "title": "Cockpit on Knife Edge",
     "platform": "Windows 10 / 11（32bit / 64bit）",
-    "version": "v2026.10.19",
-    "filename": "Cockpit-on-Knife-Edge-Windows-x86-v2026.10.19.zip",
-    "bytes": 51450278,
-    "sha256": "facb952d9be4599b8527da1cb344d8600d596d93e48b21b68b1778f695ba9fcc",
+    "version": "v2026.10.21",
+    "filename": "Cockpit-on-Knife-Edge-Windows-x86-v2026.10.21.zip",
+    "bytes": 51208923,
+    "sha256": "0cf40a4fda4f1bcc4f7a81f4f8d5612b40504aafa19d223f64365cff65558449",
     "entryPoint": "Cockpit-on-Knife-Edge-Windows-x86/Play.cmd",
-    "fileCount": 234,
-    "url": "https://github.com/KdGithubIt/portfolio-downloads/releases/download/v2026.10.19/Cockpit-on-Knife-Edge-Windows-x86-v2026.10.19.zip"
+    "fileCount": 235,
+    "url": "https://github.com/KdGithubIt/portfolio-downloads/releases/download/v2026.10.21/Cockpit-on-Knife-Edge-Windows-x86-v2026.10.21.zip"
   }
 ]

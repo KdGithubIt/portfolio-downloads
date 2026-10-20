@@ -10,8 +10,8 @@ ZIPをダウンロードして**すべて展開**し、同梱の起動ファイ�
 | --- | --- | --- | --- |
 | GameEngine | Windows 10 / 11（64bit） | [ダウンロード — 49.0 MB](https://github.com/KdGithubIt/portfolio-downloads/releases/download/v2026.10.19/GameEngine-Windows-x64-v2026.10.19.zip) | `Play-TinyGoal.cmd` |
 | CoopQuest | Windows 10 / 11（64bit） | [ダウンロード — 417.5 MB](https://github.com/KdGithubIt/portfolio-downloads/releases/download/v2026.10.20.1/CoopQuest-Windows-x64-v2026.10.20.1.zip) | `Play.cmd` |
-| コマンドRPG | Windows 10 / 11（64bit） | [ダウンロード — 110.8 MB](https://github.com/KdGithubIt/portfolio-downloads/releases/download/v2026.10.19/Command-RPG-Windows-x64-v2026.10.19.zip) | `Play.cmd` |
-| Cockpit on Knife Edge | Windows 10 / 11（32bit / 64bit） | [ダウンロード — 51.5 MB](https://github.com/KdGithubIt/portfolio-downloads/releases/download/v2026.10.19/Cockpit-on-Knife-Edge-Windows-x86-v2026.10.19.zip) | `Play.cmd` |
+| コマンドRPG | Windows 10 / 11（64bit） | [ダウンロード — 110.8 MB](https://github.com/KdGithubIt/portfolio-downloads/releases/download/v2026.10.21/Command-RPG-Windows-x64-v2026.10.21.zip) | `Play.cmd` |
+| Cockpit on Knife Edge | Windows 10 / 11（32bit / 64bit） | [ダウンロード — 51.2 MB](https://github.com/KdGithubIt/portfolio-downloads/releases/download/v2026.10.21/Cockpit-on-Knife-Edge-Windows-x86-v2026.10.21.zip) | `Play.cmd` |
 
 [すべての配布ファイル・リリース情報](https://github.com/KdGithubIt/portfolio-downloads/releases)
 
@@ -32,7 +32,9 @@ GameEngineのサンプルを遊ぶためにRustやビルド環境は不要です
 
 同梱ファイルの検証、ZIPのCRC検査、Windows環境での起動確認を実施しています。エンジンの公式サンプルではコンパイル済みゲームモジュールを読み込み、180フレームの実行処理も確認しました。全ステージの通しプレイや、別PCでの確認は未実施です。
 
-CoopQuestは本編FirstStageの初期化後、60回のフレーム更新を確認しました。配布版ではDirect3Dの開発用SDKレイヤーへの依存も解除しています。63個のglTFと2,924件のアセット参照を照合しています。
+RPGとCockpitは`v2026.10.21`で、白い画面になる描画処理と短いキー入力の取りこぼしを修正しました。展開したZIPから起動し、RPGは戦闘コマンドの選択・攻撃・次の行動への進行、Cockpitはゲーム開始・射撃・命中による得点加算を実際の画面と操作で確認しています。
+
+CoopQuestの現行配布版は起動とアセット参照を検査済みですが、画面表示と素材の版の互換性に問題が見つかったため、追加修正中です。全機能をプレイ確認済みの版としては扱っていません。
 
 ## 整合性の確認
 
