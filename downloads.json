@@ -15,13 +15,13 @@
     "projectId": "coopquest",
     "title": "CoopQuest",
     "platform": "Windows 10 / 11（64bit）",
-    "version": "v2026.10.20.1",
-    "filename": "CoopQuest-Windows-x64-v2026.10.20.1.zip",
-    "bytes": 417471373,
-    "sha256": "41aa034f2059b45e5f8223771ef8b0c867bb94fae1e67ec517662643a508a88d",
+    "version": "v2026.10.22",
+    "filename": "CoopQuest-Windows-x64-v2026.10.22.zip",
+    "bytes": 418018896,
+    "sha256": "a4f682b309cdcdaa441e9f3279bd31683596e2639d4d0d37f07c9e91bb8cc116",
     "entryPoint": "CoopQuest-Windows-x64/Play.cmd",
-    "fileCount": 3591,
-    "url": "https://github.com/KdGithubIt/portfolio-downloads/releases/download/v2026.10.20.1/CoopQuest-Windows-x64-v2026.10.20.1.zip"
+    "fileCount": 3590,
+    "url": "https://github.com/KdGithubIt/portfolio-downloads/releases/download/v2026.10.22/CoopQuest-Windows-x64-v2026.10.22.zip"
   },
   {
     "projectId": "command-rpg",
